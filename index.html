@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body style="border: 1px solid black; width: 400px; text-align: center;">
+    <h1>Calculadora</h1>
+    <div>
+        <input type="number" id="num1" placeholder="ingresa el primer valor">
+        <input type="number" id="num2" placeholder="ingresa el segundo valor">
+        <br><br><br>
+
+        <button onclick="sumar()" id="sumar"><b>+</b></button>
+        <button onclick="restar()" id="restar"><b>-</b></button>
+        <button onclick="multiplicar()" id="multiplicar"><b>x</b></button>
+        <button onclick="dividir()" id="dividir"><b>/</b></button>
+        <br><br><br>
+
+        <label for="resultado">Resultado:</label><br>
+        <input type="number" id="resultado" readonly style="background-color: aquamarine;">
+
+    </div><br>
+    <hr>
+    <footer style="color: cornflowerblue;"><i>Sandra Daniela Gomez Heredia</i></footer>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
